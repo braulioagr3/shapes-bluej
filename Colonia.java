@@ -9,6 +9,9 @@ class Colonia
         X.Acomodate();
         Y.Acomodate();
     }
+    /**
+     * Desplaza una casa a la derecha para que asi sea visible
+     */
     void Constructora(){
         Y.moverDerecha();
         Y.moverDerecha();
@@ -19,6 +22,9 @@ class Colonia
         X.moverIzquierda();
         X.moverIzquierda();
     }
+    /**
+     * Manda dibujar las casas para que puedan distiguirse
+     */
     void Dibuja(){
     X.dibujate();
     Y.dibujate();
